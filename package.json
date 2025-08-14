@@ -1,0 +1,52 @@
+{
+    "name": "mellifera-hash-blocks-website",
+    "version": "1.0.0",
+    "description": "Official website for Mellifera Hash Blocks Pvt. Ltd. - Pioneering blockchain solutions for climate action and carbon credit tokenization",
+    "main": "index.html",
+    "scripts": {
+      "start": "python -m http.server 8000",
+      "dev": "python -m http.server 3000",
+      "serve": "npx http-server -p 8000 -c-1",
+      "build": "echo 'Static site - no build process needed'",
+      "test": "echo 'Testing with browser compatibility checks'",
+      "deploy": "git add . && git commit -m 'Deploy updates' && git push origin main"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/mellifera-hash-blocks.git"
+    },
+    "keywords": [
+      "blockchain",
+      "carbon-credits",
+      "climate-tech",
+      "sustainability",
+      "tokenization",
+      "web3",
+      "defi",
+      "esg",
+      "climate-action",
+      "carbon-markets",
+      "mellifera",
+      "hash-blocks"
+    ],
+    "author": {
+      "name": "Mellifera Hash Blocks Pvt. Ltd.",
+      "email": "udayvarma@outlook.in",
+      "url": "https://mellifera-hash-blocks.vercel.app"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/your-username/mellifera-hash-blocks/issues",
+      "email": "udayvarma@outlook.in"
+    },
+    "homepage": "https://mellifera-hash-blocks.vercel.app",
+    "engines": {
+      "node": ">=12.0.0"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead",
+      "not ie 11"
+    ]
+  }
